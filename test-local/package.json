@@ -1,0 +1,16 @@
+{
+  "name": "dev-local-puppeteer",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
