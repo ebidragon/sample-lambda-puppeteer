@@ -3,7 +3,11 @@
     "es6": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "google"],
+  "extends": [
+    "plugin:prettier/recommended",
+    "eslint:recommended",
+    "google"
+  ],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly",
@@ -14,6 +18,7 @@
     "sourceType": "module"
   },
   "rules": {
+    "prettier/prettier": ["error", {"singleQuote": true}],
     "space-in-parens": [2, "never"],
     "space-infix-ops": 2
   }
