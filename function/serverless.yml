@@ -20,6 +20,7 @@ package:
     - package-lock.json
     - .env
     - .env.example
+    - .eslintrc.json
 
 functions:
   crawler:

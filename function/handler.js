@@ -40,7 +40,7 @@ exports.crawler = async (event, context, callback) => {
     const response = {
       body: JSON.stringify(responseBody),
     };
-    callback(null, response)
+    callback(null, response);
   } catch (error) {
     callback(error);
   }

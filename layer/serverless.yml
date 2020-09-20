@@ -7,6 +7,12 @@ provider:
   region: ap-northeast-1
   profile: serverless
 
+package:
+  exclude:
+    - nodejs/.npmrc
+    - nodejs/package.json
+    - nodejs/package-lock.json
+
 layers:
   modules:
     path: modules
